@@ -2,47 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8ad8bf5-f0df-4d05-829d-62b49c33fc1e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/pages/about.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/pygment.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/typogrify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/css/wide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/aboutme.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/bitbucket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/delicious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gitorious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/gittip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-groups.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/google-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/hackernews.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/lastfm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/reddit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/slideshare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/speakerdeck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/stackoverflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/theme/images/icons/youtube.png" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/custom_themes/ptemplate/CHANGELOG" afterPath="$PROJECT_DIR$/custom_themes/ptemplate/changelog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/ArticlesGenerator-Readers" afterPath="$PROJECT_DIR$/cache/ArticlesGenerator-Readers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/PagesGenerator-Readers" afterPath="$PROJECT_DIR$/cache/PagesGenerator-Readers" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_themes" afterPath="$PROJECT_DIR$/custom_themes" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_themes/ptemplate" afterPath="$PROJECT_DIR$/custom_themes/ptemplate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/feeds/all.atom.xml" afterPath="$PROJECT_DIR$/output/feeds/all.atom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/archives.html" afterPath="$PROJECT_DIR$/output/archives.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/authors.html" afterPath="$PROJECT_DIR$/output/authors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/pages/about.md" afterPath="$PROJECT_DIR$/content/pages/about.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_themes/gum/templates/base.html" afterPath="$PROJECT_DIR$/custom_themes/gum/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/categories.html" afterPath="$PROJECT_DIR$/output/categories.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_themes/gum/static/gumby.css" afterPath="$PROJECT_DIR$/custom_themes/gum/static/gumby.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/index.html" afterPath="$PROJECT_DIR$/output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pelicanconf.py" afterPath="$PROJECT_DIR$/pelicanconf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom_themes/gum/static/style.css" afterPath="$PROJECT_DIR$/custom_themes/gum/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/tags.html" afterPath="$PROJECT_DIR$/output/tags.html" />
     </list>
     <ignored path="sf_Blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +52,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="468">
-              <caret line="9" column="110" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+              <caret line="9" column="181" selection-start-line="9" selection-start-column="181" selection-end-line="9" selection-end-column="181" />
               <folding />
             </state>
           </provider>
@@ -105,12 +71,12 @@
         <option value="$PROJECT_DIR$/content/pages/contact.md" />
         <option value="$PROJECT_DIR$/content/notebooks/nb.md" />
         <option value="$PROJECT_DIR$/content/notebooks/TestNotebook.ipynb" />
-        <option value="$PROJECT_DIR$/content/pages/about.md" />
         <option value="$PROJECT_DIR$/pelicanconf.py" />
         <option value="$PROJECT_DIR$/content/2015-02-6-hello-world.markdown" />
         <option value="$PROJECT_DIR$/content/nb.md" />
         <option value="$PROJECT_DIR$/content/2015-01-15-intro.markdown" />
         <option value="$PROJECT_DIR$/content/2015-01-20-Benson.markdown" />
+        <option value="$PROJECT_DIR$/content/pages/about.md" />
       </list>
     </option>
   </component>
@@ -793,7 +759,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="468">
-          <caret line="9" column="110" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+          <caret line="9" column="181" selection-start-line="9" selection-start-column="181" selection-end-line="9" selection-end-column="181" />
           <folding />
         </state>
       </provider>

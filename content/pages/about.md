@@ -7,5 +7,5 @@ I'm a software engineer who enjoys finding things out with data.
 
 I'm also a student at the [Metis](http://www.thisismetis.com/) data science intensive. 
 
-Previously I studied physics and worked on massive computer simulations of solid rockets (among other things).
+Previously I studied physics and worked on massive computer simulations of solid rockets (among other things).git remote add origin git@github.com:schwenkmetis/theScienceFactory.git
 
