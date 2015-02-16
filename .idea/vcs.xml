@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/BT3-Flat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/Responsive-Pelican" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/blue-penguin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/bluegrasshopper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/blueidea" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/bold" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/burrito" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/chameleon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/chunk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/crowsfoot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/dev-random3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/elegant" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/fresh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/html5-dopetrope" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/irfan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/iris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/jesuislibre" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/lannisport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/lazystrap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/lovers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/maggner-pelican" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/martin-pelican" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/mg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/neat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/nikhil-theme" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/niu-x2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelican-cait" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelican-mockingbird" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelican-simplegrey" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelican-sober" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelican-twitchy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelicanthemes-generator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pelipress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/plumage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/ptemplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pujangga" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/pure" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/relapse" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/sora" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/storm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/sundown" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/svbhack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/svbtle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/twenty-html5up" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/voidy-bootstrap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/custom_themes/water-iris" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pelican-plugins" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+Title: Getting Started
+Date: 2015-1-15 16:00
+Category: Metis	
+Tags: Metis, beginning, introduction
+Slug: intro
+Authors: Dustin Schwenk
+Summary: Introduction to my blog 
+
+Test post, please ignore. - o{}o
+
+

@@ -3,15 +3,21 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Dustin Schwenk'
-SITENAME = u'Finding things out'
-SITEURL = ''
+SITENAME = u'The Science Factory'
+SITESUBTITLE = u''
+THEME = "/Users/schwenk/Metis/sf_Blog/custom_themes/gum"
 
-THEME = "/Users/schwenk/Metis/sf_Blog/custom_themes/mnmlist"
 
 PATH = 'content'
+DISPLAY_PAGES_ON_MENU = True
+PAGE_PATHS = ['pages']
+DEFAULT_CATEGORY = 'random'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/New_York'
 
+TYPOGRIFY = True
+
+GITHUB_URL = 'https://github.com/schwenkmetis'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -21,17 +27,31 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+STATIC_PATHS = ['images', 'pdfs','notebooks']
+
+CODE_DIR = 'code'
+NOTEBOOK_DIR = 'notebooks'
+
+#EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'liquid_tags.literal', 'render_math']
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# SOCIAL = (('Github', 'https://github.com/schwenkmetis'),
+#           ('LinkedIn', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# MENUITEMS = (('Pelican', 'http://getpelican.com/')
+#             ('Python.org', 'http://python.org/'),

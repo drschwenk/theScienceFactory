@@ -1,0 +1,11 @@
+Title: Project Benson
+Date: 2015-1-20 21:00
+Author: Dustin Schwenk
+Slug: test
+Category: Metis	
+Tags: Metis, Project Benson
+Summary: Diving into Python and EDA
+
+Notebook from project benson-
+
+{% notebook benson.ipynb cells[:] %}
