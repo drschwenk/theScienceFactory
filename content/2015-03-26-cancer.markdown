@@ -9,10 +9,11 @@ D3:
 Scripts: d3.slider.js, bar_chart.js 
 Styles: d3.slider.css, bar_chart.css
 
-This is going to be a blog post breast cancerss.
+This is going to be a blog post breast cancer.
 
 {% notebook benson.ipynb cells[6:8] %}
 
+<br />
 
 <div id="chart_area" class="wrapper">
     <h2>5 Year Survival Chance After Breast Cancer Surgery</h2>
@@ -31,7 +32,9 @@ This is going to be a blog post breast cancerss.
     <h2 class="feature">Number of malignant lymph nodes: <span id="nodes">1</span></h2>
     <div id="nodes_slider"></div>
   </div>
- 
+
+<br />  
+
  {% notebook benson.ipynb cells[9:15] %}
 
 
