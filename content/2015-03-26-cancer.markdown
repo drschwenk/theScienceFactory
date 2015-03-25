@@ -11,6 +11,9 @@ Styles: d3.slider.css, bar_chart.css
 
 This is going to be a blog post breast cancerss.
 
+{% notebook benson.ipynb cells[6:8] %}
+
+
 <div id="chart_area" class="wrapper">
     <h2>5 Year Survival Chance After Breast Cancer Surgery</h2>
     <p class="space"></p>
@@ -29,4 +32,6 @@ This is going to be a blog post breast cancerss.
     <div id="nodes_slider"></div>
   </div>
  
+ {% notebook benson.ipynb cells[9:15] %}
+
 

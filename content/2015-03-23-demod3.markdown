@@ -13,6 +13,7 @@ This is going to be a blog post about D3. Here is my chart:
 
 #<div class="btn-group btn-group-lg text-center">
 
+{% notebook benson.ipynb cells[9:12] %}
 
 <div style="text-align: left; margin-top: 20px">
 	<div class="btn-group btn-group-lg text-center">
@@ -21,4 +22,6 @@ This is going to be a blog post about D3. Here is my chart:
 </div>
 
 <div class="bar_chart"></div>
+
+{% notebook benson.ipynb cells[6:8] %}
 
