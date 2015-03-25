@@ -3,9 +3,6 @@ Date: 2015-1-20 21:00
 Author: Dustin Schwenk
 Slug: about
 
-I'm a software engineer who enjoys finding things out with data. 
+I'm a software engineer who delights in finding things out with data. 
 
-I'm also a student at the [Metis](http://www.thisismetis.com/) data science intensive. 
-
-Previously I studied physics and worked on massive computer simulations of solid rockets (among other things).git remote add origin git@github.com:schwenkmetis/theScienceFactory.git
-
+I'm a Seattleite who is part researcher, part design geek, and an engineer to the core. I previously devoted some time to academic physics before transitioning to the world of high-performance computing and simulation. I'm currently spending some time in another pupal stage at [Metis](http://www.thisismetis.com/) as I make the transtion to data science. 

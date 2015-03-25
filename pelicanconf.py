@@ -16,7 +16,7 @@ DEFAULT_CATEGORY = 'random'
 TIMEZONE = 'America/New_York'
 
 TYPOGRIFY = True
-
+HIDE_SIDEBAR = True
 GITHUB_URL = 'https://github.com/schwenkmetis'
 DEFAULT_LANG = u'en'
 
@@ -37,7 +37,7 @@ NOTEBOOK_DIR = 'notebooks'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal', 'render_math']
+           'liquid_tags.literal', 'render_math','pelican_dynamic']
 
 # Blogroll
 # LINKS = (('Pelican', 'http://getpelican.com/'),

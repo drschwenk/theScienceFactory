@@ -4,8 +4,10 @@ Author: Dustin Schwenk
 Slug: test
 Category: Metis	
 Tags: Metis, Project Benson
-Summary: Diving into Python and EDA
+Summary: Diving into Python and EDA with NYC turnstile counts
 
-Notebook from project benson-
+Notebook from project benson1-
 
-{% notebook benson.ipynb cells[:] %}
+
+{% notebook benson.ipynb cells[6:8] %}
+

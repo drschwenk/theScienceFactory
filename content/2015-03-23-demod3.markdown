@@ -1,0 +1,24 @@
+Title: Pelican blog post with D3
+Date: 2015-3-24
+Category: Blog
+Tags: D3
+Slug: awesome-d3-vis
+Author: me
+Summary:  Pelican blog post with D3
+D3:
+Scripts: barchart.js
+Styles: barchart.css
+
+This is going to be a blog post about D3. Here is my chart: 
+
+#<div class="btn-group btn-group-lg text-center">
+
+
+<div style="text-align: left; margin-top: 20px">
+	<div class="btn-group btn-group-lg text-center">
+		<button id="add" class="btn btn-primary">Add</button>
+		<button id="remove" class="btn btn-primary">Remove</button>
+</div>
+
+<div class="barchart"></div>
+
