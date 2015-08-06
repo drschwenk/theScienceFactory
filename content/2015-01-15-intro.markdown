@@ -1,0 +1,10 @@
+Title: Hallo
+Date: 2015-1-15 16:00
+Category: Metis	
+Tags: Metis, introduction, first post
+Slug: intro
+Authors: Dustin Schwenk
+Summary: Getting the first post out of the way
+
+I'll be using this space to talk about personal projects, data science, machine learning, python, and any pebbles smoother or shells prettier than ordinary that I find. The next few weeks will focus on my time at the [Metis](http://www.thisismetis.com/) data science bootcamp in New York, but the focus should broaden as I return to the civilian world.
+
