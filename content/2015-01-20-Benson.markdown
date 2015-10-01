@@ -1,9 +1,9 @@
 Title: Exploring NYC Subway Ridership
-Date: 2015-1-20 21:00
+Date: 2015-10-1 21:00
 Author: Dustin Schwenk
 Slug: Benson
-Category: Metis	
-Tags: Metis, EDA, 
+Category: personal projects 
+Tags: EDA, 
 Summary: Diving into Python and EDA with NYC turnstile counts
 
 My first week in New York was focused on exploring the subway system as a generator of data, as well as a means of transportation.
@@ -68,7 +68,8 @@ that I have data for. Traffic seems to fall off fairly quickly from the largest 
 of station sizes looks like for the rest of the system.
 {% notebook benson.ipynb cells[20:21] %}
 There are fewer than 15 stations with more than 2M riders, and the station size skews heavily towards smaller stations.
-We can easily see the 
+It would be interesting to look at this distribution for a subway system that was centrally planned, instead of an organically grown system 
+NYC's.
 
 
 
