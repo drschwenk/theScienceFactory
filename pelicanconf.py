@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Dustin Schwenk'
 SITENAME = u'The Science Factory'
 SITESUBTITLE = u''
-THEME = "/Users/schwenk/Metis/sf_Blog/custom_themes/gum"
+THEME = "/Users/schwenk/projects/sf_Blog/custom_themes/gum"
 
 
 PATH = 'content'
@@ -13,11 +13,11 @@ DISPLAY_PAGES_ON_MENU = True
 PAGE_PATHS = ['pages']
 DEFAULT_CATEGORY = 'random'
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'America/Los_Angeles'
 
 TYPOGRIFY = True
 HIDE_SIDEBAR = True
-GITHUB_URL = 'https://github.com/schwenkmetis'
+GITHUB_URL = 'https://github.com/drschwenk'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -27,7 +27,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-STATIC_PATHS = ['images', 'pdfs','notebooks', 'code']
+STATIC_PATHS = ['images', 'pdfs','notebooks', 'code', 'templates']
 
 CODE_DIR = 'code'
 NOTEBOOK_DIR = 'notebooks'
@@ -45,7 +45,6 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-# SOCIAL = (('Github', 'https://github.com/schwenkmetis'),
 #           ('LinkedIn', '#'),)
 
 DEFAULT_PAGINATION = 5
