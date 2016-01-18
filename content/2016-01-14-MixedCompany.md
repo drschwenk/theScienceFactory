@@ -9,6 +9,8 @@ Summary: Exploring the flavor network of cocktails
 ##Overview
 <br><br>
 We’re in the midst of a cocktail renaissance. Hoping to contribute to this recent resurgence, I’ve created MixedCompany—a tool for recommending novel ingredient pairings and substitutions in cocktails. The ingredient-flavor network latent in the world of mixed drinks contains a great deal of information about our preferences for flavor combinations. I build and exploit this network to suggest ingredients that should pair well together, but have not appeared together before in existing cocktail recipes. Interesting new twists on famous cocktail recipes, backed up by flavor data, are waiting to be explored with MixedCompany.
+[Comptails](recommender "Title")
+
 <br><br>
 
 
