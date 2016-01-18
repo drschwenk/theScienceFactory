@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>mixedCompany</title>
+  <meta charset="utf-8" />
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="/theme/gumby.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/pygment.css" />
+
+  <script src="/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body id="index" class="home">
+
+
+<div class="container">
+
+  <div class="row">
+
+    <header id="banner" class="body">
+      <h1><a href="/">The Science Factory <strong></strong></a></h1>
+    </header><!-- /#banner -->
+
+    <div id="navigation" class="navbar row">
+      <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+
+      <ul class="columns">
+        <li><a href="/">Blog</a></li>
+
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+
+    <section id="content" class="body">
+
+      <div class="row">
+        <div class="eleven columns">
+
+
+          <header>
+            <h2 class="entry-title">
+              <a href="/recommender" rel="bookmark"
+                 title="Permalink to Comptails">Comptails</a></h2>
+
+          </header>
+
+          <div class="entry-content">
+            <p>Computationally generated cocktails</p>
+          </div><!-- /.entry-content -->
+
+
+        </div><!-- /.eleven.columns -->
+
+      </div><!-- /.row -->
+
+
+    </section>
+
+  </div><!-- /.row -->
+</div><!-- /.container -->
+
+
+<div class="container.nopad bg">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <form action="{{ url_for('index') }}" method="post" class="form-horizontal">
+          <div class="form-group">
+            <input type="text" name="ingredients" class="form-control input lg"
+                   placeholder="{{query}}" style="width: 600px; font-size: 20px " maxlength="100" >
+          </div>
+          <!--<div class="col-sm-offset-1 col-sm-100">-->
+            <div class="medium primary btn"><button type="submit" class="btn btn-default btn-success">Submit</button></div>
+          <!--</div>-->
+        </form>
+      </div>
+
+      <div class="col-sm-5 col-sm-offset-1">
+        <h3>Suggested pairings:</h3>
+        <br>
+
+        <div id="results">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th>Ingredient</th>
+              <th>Pairs well with</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>{{rec1}}</td>
+              <td>{{insp1}}</td>
+            </tr>
+            <tr>
+              <td>{{rec2}}</td>
+              <td>{{insp2}}</td>
+            </tr>
+            <tr>
+              <td>{{rec3}}</td>
+              <td>{{insp3}}</td>
+            </tr>
+            <tr>
+              <td>{{rec4}}</td>
+              <td>{{insp4}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="credits" class="row">
+    <div class="seven columns left-center">
+
+      <address id="about" class="vcard body">
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+        which takes great advantage of <a href="http://python.org">Python</a>.
+        <br />
+        &copy; 2016 Dustin Schwenk
+      </address>
+    </div>
+
+
+    <div class="seven columns">
+      <div class="row">
+        <ul class="socbtns">
+
+          <li><div class="btn primary"><a href="https://github.com/drschwenk" target="_blank">Github</a></div></li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+
+<script src="/theme/js/libs/jquery-1.9.1.min.js"></script>
+<script src="/theme/js/libs/gumby.min.js"></script>
+<script src="/theme/js/plugins.js"></script>
+
+
+</body>
+
+
+</html>

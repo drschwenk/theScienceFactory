@@ -24,15 +24,22 @@ def home_page():
 def index():
     query = request.form.get('ingredients', None)
     button_message = "Enter ingredients separated by commas..."
+    recs = ['no recommendation'] * 4
+    insps = ['no recommendation'] * 4
+
     if not query or (query is not None and len(query) == 0):
         query = button_message
 
     if query is not None and query != button_message:
-        print 'here'
         recommendations = comptail_recommender.make_rec(query, 15)
-        recs = [rec[0] for rec in recommendations]
-        insps = [rec[1] for rec in recommendations]
-        print recs, insps
+
+        try:
+            recs = [rec[0] for rec in recommendations]
+            insps = [rec[1] for rec in recommendations]
+        except IndexError:
+            recs = ['no recommendation'] * 4
+            insps = ['no recommendation'] * 4
+
         return render_template('recommend.html', query=query, rec1=recs[0], insp1=insps[0],
                                                               rec2=recs[1], insp2=insps[1],
                                                               rec3=recs[2], insp3=insps[2],

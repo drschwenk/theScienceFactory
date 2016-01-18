@@ -8,8 +8,7 @@ Summary: Exploring the flavor network of cocktails
 
 ##Overview
 <br><br>
-We’re in the midst of a cocktail renaissance. Hoping to contribute to this recent resurgence, I’ve created MixedCompany—a tool for recommending novel ingredient pairings and substitutions in cocktails. The ingredient-flavor network latent in the world of mixed drinks contains a great deal of information about our preferences for flavor combinations. I build and exploit this network to suggest ingredients that should pair well together, but have not appeared together before in existing cocktail recipes. Interesting new twists on famous cocktail recipes, backed up by flavor data, are waiting to be explored with MixedCompany.
-[Comptails](recommender "Title")
+We’re in the midst of a cocktail renaissance. Hoping to contribute to this recent resurgence, I’ve created [MixedCompany](recommender "Title")—a tool for recommending novel ingredient pairings and substitutions in cocktails. The ingredient-flavor network latent in the world of mixed drinks contains a great deal of information about our preferences for flavor combinations. I build and exploit this network to suggest ingredients that should pair well together, but have not appeared together before in existing cocktail recipes. Interesting new twists on famous cocktail recipes, backed up by flavor data, are waiting to be explored with [MixedCompany](recommender "Title").
 
 <br><br>
 
@@ -36,11 +35,6 @@ To address the question of why certain ingredients pair well together, two thing
 The path I followed was influenced in large part by the work of 
 [Ahn, Ahnert, Bagrow and Barabási](http://www.nature.com/articles/srep00196 "Title") on exploring the [ingredient-flavor network](https://en.wikipedia.org/wiki/Ingredient-flavor_network 'Title') within world cuisine. 
 
-The recipe scraping was straightforward, and the code for my scraping module can be found in 
-
-Sanitizing the flavor and recipe data will be a major challenge for this project.
-
-I have the flavor data in plaintext, but it is not in a tabular, searchable form. I will need to parse the document, recovering the words that I'm interested in. The OCR I've done is good, but not perfect. I will need to correct any misidentified characters in order to make the matches between flavor compounds that are the foundation of the network. NLP techniques should help here. 
 
 <br><br>
 ![method](images/method_overview.jpeg =512x384)
@@ -52,7 +46,7 @@ Recipe scraping was straightforward, and the code for my scraping module can be 
 
 ##Results
 <br><br>
-To test the hypothesis that ingredient pairs sharing many flavor compounds are preferred, I computed every possible pairwise ingredient combination possible from the recipe dataset. If shared compounds have no effect on occurunce in real-world recipes, we would expect to see that the fraction of pairs occuring in the wild is constant. The plot below shows the trend that is observed. As the number of shared compounds increases, the fraction of pairs at that level of sharing increases. 
+To test the hypothesis that ingredient pairs sharing many flavor compounds are preferred, I computed every possible pairwise ingredient combination possible from the recipe dataset. If shared compounds have no effect on occurunce in real-world recipes, we would expect to see that the fraction of pairs occuring in the wild is constant. The plot below shows the trend that is observed. As the number of shared compounds increases, the fraction of pairs at that level of sharing increases. This observation is the basis for the ingredient pairings recommended by [MixedCompany](recommender "Title").
 <br><br>
 ![coocc](images/plot_light.png =670x344)
 <br><b]r>
