@@ -6,5 +6,4 @@ Slug: intro
 Authors: Dustin Schwenk
 Summary: Getting the first post out of the way
 
-I'll be using this space to talk about personal projects, data science, machine learning, python, and any pebbles smoother or shells prettier than ordinary that I find.
-
+testing Rsync

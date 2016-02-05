@@ -8,7 +8,11 @@ Summary: Exploring the flavor network of cocktails
 
 ##Overview
 <br><br>
-We’re in the midst of a cocktail renaissance. Hoping to contribute to this recent resurgence, I’ve created [MixedCompany](recommender "Title")—a tool for recommending novel ingredient pairings and substitutions in cocktails. The ingredient-flavor network latent in the world of mixed drinks contains a great deal of information about our preferences for flavor combinations. I build and exploit this network to suggest ingredients that should pair well together, but have not appeared together before in existing cocktail recipes. Interesting new twists on famous cocktail recipes, backed up by flavor data, are waiting to be explored with [MixedCompany](recommender "Title").
+We’re in the midst of a cocktail renaissance. 
+Hoping to contribute to this recent resurgence, I’ve created [MixedCompany](recommender "Title")—a tool for recommending novel ingredient pairings and substitutions in cocktails. 
+The ingredient-flavor network latent in the world of mixed drinks contains a great deal of information about our preferences for flavor combinations. 
+I build and exploit this network to suggest ingredients that should pair well together, but have not appeared together before in existing cocktail recipes. 
+Interesting new twists on famous cocktail recipes, backed up by flavor data, are waiting to be explored with [MixedCompany](recommender "Title").
 
 <br><br>
 
@@ -16,7 +20,7 @@ We’re in the midst of a cocktail renaissance. Hoping to contribute to this rec
 ##Dataset
 <br><br>
 
-To address the question of why certain ingredients pair well together, two things are needed. The first is reference documenting the chemical compounds found in common cocktail components. For this, I used the 6th edition of Fenaroli’s handbook of flavor ingredients. Fenaroli’s handbook is the canonical reference for chemical compounds and their occurrences in nature. The second is a source of flavor pairings that human’s enjoy drinking. This is readily found in the form of cocktail recipes on the web, of which I’ve scraped nearly 2000. 
+To address the question of why certain ingredients pair well together, two things are needed. The first is a reference documenting the chemical compounds found in common cocktail components. For this, I used the 6th edition of Fenaroli’s handbook of flavor ingredients. Fenaroli’s handbook is the canonical reference for chemical compounds and their occurrences in nature. The second is a source of flavor pairings that human’s enjoy drinking. This is readily found in the form of cocktail recipes on the web, of which I’ve scraped nearly 2000. 
 
 [Burdock, G. A. Fenaroli's handbook of flavor ingredients (CRC Press, 2004), 5th edn.](https://books.google.com/books?id=A8OyTzGGJhYC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false "Title")
 
